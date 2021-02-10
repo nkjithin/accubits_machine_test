@@ -1,6 +1,11 @@
 # accubits machine test
 
 accubits by using mongo and node.js
+RUN NODE JS:
+ node .\server.jS
+RUN RabbitMQ:
+node ./email/emailWorker.js consumeMessage
+
 please configure details in .env
 configuration :
 
