@@ -6,7 +6,7 @@ RUN NODE JS:
 node .\server.jS
 
 RUN RabbitMQ:
-node ./email/emailWorker.js consumeMessage
+node ./email/emailWorker.js consumerMessage
 
 please configure details in .env
 configuration :
